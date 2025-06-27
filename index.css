@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+    height: 600px;
+    width: 600px;
+    background-color: brown;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
